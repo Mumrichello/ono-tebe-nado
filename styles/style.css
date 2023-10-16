@@ -1,1 +1,174 @@
-/* место для вашего кода */
+.content-section{
+  box-sizing: border-box;
+  width: 1440px;
+  margin: auto;
+}
+
+.header{
+  padding: 92px 49px 92px 51px;
+  display: flex;
+  height: fit-content - 1px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__links-list-item.header__links-list-item_no-bullit{
+  list-style: none;
+}
+
+.header__logo{
+  position: relative;
+  right: 74px;
+  width: 136px;
+  flex-shrink: 0;
+}
+
+.header__links-list{
+  display:flex;
+  gap:32px;
+  list-style:circle;
+}
+
+.header__link{
+  color: #000;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: normal;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
+.header__menu-circle{
+  margin-left:13px;
+  margin-right:12px;
+  margin-top: 1px;
+}
+
+.header__logo-image{
+    width: 100%;
+}
+
+.header__information-row{
+  display:block;
+  width:240px;
+  color: #000;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.35;
+}
+
+.header__information-telephone, 
+.header__information-email{
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
+.overlay{
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.cover{
+  /* padding: 165px 50px 50px 50px; */
+  /* padding: 165px 0px 1000px 0px; */
+}
+
+.cover{
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -15px;
+}
+
+.cover__title{
+  width: 100%;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 520px;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 30px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.accent-span{
+  width: 1340px;
+}
+
+.p__big-spacing{
+  letter-spacing: 60px;
+}
+
+.p__no-spacing{
+  letter-spacing: 0px;
+}
+
+.accent-span:first-child{
+  line-height: 1.15;
+  margin-top: 165px;
+}
+
+.accent-span:nth-child(2){
+  width:1280px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;}
+
+.cover__description{
+  margin-top: 135px;
+  margin-left: 422px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cover__description-text{
+  color: #FFF;
+  word-spacing: 17px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+/* Выглядит, что расстояние до последнего слова больше чем между другими */
+.description__bigger-word-spacing{
+  position: relative;
+  left: -24px;
+}
+
+.bet-button{
+  position: relative;
+  left: -50px;
+  background-color: transparent;
+  color: #FFF;
+  border: 1px solid #FFF;
+  padding: 12px 32px;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.lots{
+  padding: 180px 50px 181px 50px;
+}
+
+.about{
+  padding: 181px 50px 180px 50px;
+}
+
+.footer{
+  padding: 180px 50px 90px 50px;
+}

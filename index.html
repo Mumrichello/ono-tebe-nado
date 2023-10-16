@@ -4,7 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header content-section">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link header__link-active">главная</a>
+          </li>
+          <!-- <li class="header__menu-circle">
+            <svg width="7" height="7" fill="none">
+              <circle cx="3.5" cy="3.5" r="3.5" stroke="black"/>
+            </svg>
+          </li> -->
+          <li class="header__links-list-item">
+            <a class="header__link" href="#watch__lots">посмотреть лоты</a>
+          </li>
+          <!-- <li class="header__menu-circle">
+            <svg width="7" height="7" viewBox fill="none">
+              <circle cx="3.5" cy="3.5" r="3.5" stroke="black"/>
+            </svg>
+          </li> -->
+          <li class="header__links-list-item">
+            <a class="header__link" href="#about__auction">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__logo">
+        <img 
+          class="header__logo-image"
+          src="./images/logo-black.svg"
+          alt="Логотип 'Оно тебе надо'"
+        />
+      </a>
+      <div class="header__inforamtion">
+        <a class="header__information-row header__information-telephone" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="header__information-row header__information-email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <address class="header__information-row header__information-adress">наб. Принсенграхт 263-265, <br>Амстердам</address>
+      </div>
+    </header>
+    <main>
+      <section class="cover content-section">
+        <div class="overlay">
+          <h1 class="cover__title">
+            <span class="accent-span">о<span class="p__big-spacing">но</span></span>
+            <span class="accent-span text-center">те<span class="p__big-spacing">бе</span></span>
+            <span class="accent-span text-right"><span class="p__big-spacing">н</span>ад<span class="p__no-spacing">о</span></span>
+          </h1>
+          <div class="cover__description">
+            <p class="cover__description-text">аукцион вещей, в которые никто не<p class="cover__description-text description__bigger-word-spacing">верил</p></p>
+            <button class="bet-button">сделать ставку</button>
+          </div>
+        </div>
+      </section>
+      <section class="lots content-section" id="watch__lots">lots</section>
+      <section class="about content-section" id="about__auction">
+        About auction
+      </section>
+    </main>
+    <footer class="footer content-section"></footer>
+  </body>
+  </body>
 </html>
