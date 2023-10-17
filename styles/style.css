@@ -15,6 +15,7 @@
   list-style: none;
 }
 
+/* Расположение правее через flex */
 .header__logo {
   position: relative;
   right: 74px;
@@ -37,6 +38,7 @@
   text-underline-offset: 4px;
 }
 
+/* Вариант с добавлением кружков не через list-style:circle */
 /* .header__menu-circle{
   margin-left:13px;
   margin-right:12px;
@@ -63,32 +65,29 @@
 }
 
 .overlay {
-  z-index: 0;
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
+  z-index: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* .cover{
-  padding: 165px 50px 50px 50px;
-} */
-
 .cover {
-  display: flex;
-  height: 757px;
-  flex-direction: column;
   position: relative;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  height: 757px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: 0px -15px;
   background-size: cover;
-  z-index: -1;
 }
 
 .cover__title {
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,7 +100,6 @@
   line-height: 1;
   letter-spacing: 30px;
   text-transform: uppercase;
-  z-index: 1;
 }
 
 .accent-span {
@@ -199,46 +197,46 @@
 }
 
 .card {
+  position: relative;
+  z-index: -1;
   display: flex;
   flex-direction: column;
-  position: relative;
   justify-content: space-between;
   width: 100%;
   height: 100%;
   padding: 50px 40px;
-  z-index: -1;
 }
 
-.card_link{
+.card_link {
   display: block;
   text-decoration: none;
 }
 
 .card.card__type-film {
+  z-index: -1;
   background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
 }
 
 .card.card__type-book {
+  z-index: -1;
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
 }
 
 .card.card__type-picture {
+  z-index: -1;
   background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
 }
 
 .card__title,
 .card__text {
-  width: 100%;
   z-index: 1;
+  width: 100%;
 }
 
 .card__title {
@@ -259,14 +257,14 @@
 
 .lots__look-more-link {
   display: inline-block;
-  text-decoration: none;
-  padding-top: 30px;
   margin-left: 40px;
+  border-bottom: 1px solid black;
+  padding-top: 30px;
   color: #000;
   font-weight: 400;
   font-size: 20px;
   line-height: normal;
-  border-bottom: 1px solid black;
+  text-decoration: none;
 }
 
 .about {
