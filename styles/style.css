@@ -25,8 +25,7 @@
   list-style: circle;
 }
 
-.header__link-active,
-.footer__link-active {
+.header__link-active {
   text-decoration: none;
 }
 
@@ -124,7 +123,7 @@
   justify-content: end;
   align-items: center;
   gap: 78px;
-  padding: 135px 50px 50px 0px;
+  margin: 135px 50px 50px 0px;
 }
 
 .cover__description-text {
@@ -306,6 +305,10 @@
   line-height: normal;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
+}
+
+.footer__link-active {
+  text-decoration: none;
 }
 
 .footer__social-list {
