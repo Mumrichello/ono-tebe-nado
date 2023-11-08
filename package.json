@@ -1,0 +1,17 @@
+{
+  "name": "ono-tebe-nado",
+  "version": "1.0.0",
+  "description": "https://github.com/ZaytsevAlexanderGit/ono-tebe-nado.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Привет!'",
+    "check": "npx prettier --check './**/*.{html,css,js}'",
+    "format": "npx prettier --write './**/*.{html,css,js}'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.0.3",
+    "stylelint": "^15.11.0"
+  }
+}

@@ -189,7 +189,7 @@
   background-size: cover;
 }
 
-.card_link {
+.card__link {
   display: block;
   text-decoration: none;
 }
@@ -283,6 +283,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: start;
   padding: 180px 50px 90px 50px;
 }
 
